@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_dev"
+            android:icon="@drawable/home"
+            android:title="@string/development" />
+        <item
+            android:id="@+id/nav_testing"
+            android:icon="@drawable/test"
+            android:title="@string/testing" />
+        <item
+            android:id="@+id/nav_user_rel"
+            android:icon="@drawable/user_rel"
+            android:title="@string/user_relations" />
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@drawable/account"
+            android:title="@string/account" />
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@drawable/info"
+            android:title="@string/info" />
+    </group>
+    <item
+        android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/logout"
+                android:title="@string/logout" />
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.example.serega.loginreg.RegisterFragment"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register" >
+        <action
+            android:id="@+id/action_registerFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.serega.loginreg.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_registerFragment"
+            app:destination="@id/registerFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_accountFragment"
+            app:destination="@id/accountFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/accountFragment"
+        android:name="com.example.serega.AccountFragment"
+        android:label="fragment_account"
+        tools:layout="@layout/fragment_account" />
+    <fragment
+        android:id="@+id/developmentDivisionFragment"
+        android:name="com.example.serega.development.DevelopmentDivisionFragment"
+        android:label="fragment_development_division"
+        tools:layout="@layout/fragment_development_division" />
+    <fragment
+        android:id="@+id/userRelationsDivisionFragment"
+        android:name="com.example.serega.userrelations.UserRelationsDivisionFragment"
+        android:label="fragment_user_relations_division"
+        tools:layout="@layout/fragment_user_relations_division" />
+    <fragment
+        android:id="@+id/testingDevisionFragment"
+        android:name="com.example.serega.testing.TestingDivisionFragment"
+        android:label="fragment_testing_devision"
+        tools:layout="@layout/fragment_testing_division" />
+</navigation>

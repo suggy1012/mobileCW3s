@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "24783077093",
+    "firebase_url": "https://personnel-accounting-cc500-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "personnel-accounting-cc500",
+    "storage_bucket": "personnel-accounting-cc500.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:24783077093:android:88e4c219d0c600117fde0c",
+        "android_client_info": {
+          "package_name": "com.example.serega"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOVnZb5zTKT32GvtvOx6gL3VblM7LubII"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
